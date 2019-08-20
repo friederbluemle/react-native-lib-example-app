@@ -3,14 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
     "lint": "eslint ."
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.2"
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
   },
   "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10",
     "@babel/core": "^7.4.0",
     "@babel/runtime": "^7.4.2",
     "@react-native-community/eslint-config": "^0.0.3",
